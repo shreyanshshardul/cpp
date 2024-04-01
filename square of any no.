@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,i,result=1;
+    cout<<"enter no.\n";
+    cin>>n;
+    for(i=1;i<=n;i++){
+     result=n*i;
+    }
+      cout<<result;
+    return 0;
+}
