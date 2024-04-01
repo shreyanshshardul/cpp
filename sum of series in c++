@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,i,result=0;
+    //printing sum of series like:1-2+3-4.
+    cout<<"enter no.\n";
+    cin>>n;
+    for(i=1;i<=n;i++){
+      if(i%2==0){
+          result-=i;
+      }
+      else{
+          result+=i;
+      }
+    }
+      cout<<result;
+    return 0;
+}
