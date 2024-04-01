@@ -1,0 +1,16 @@
+//printing reverse in c++
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int i,n,r,y=0;
+cout<<"enter no.";
+cin>>n;
+for(i=1;i<=n;i++){
+r=n%10;
+y=y*10+r;
+n=n/10;;
+}
+cout<<n;
+cout<<y;
+return 0;
+}
