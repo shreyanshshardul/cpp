@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a[5]={5,4,3,1,2};
+   int i,j,temp;
+    for(i=0;i<5;i++){
+        for(j=i+1;j<5;j++){
+            if(a[i]>a[j]){
+                temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
+            }
+        }
+    }
+    for(j=0;j<5;j++){
+        cout<<a[j];
+    }
+    return 0;
+}
