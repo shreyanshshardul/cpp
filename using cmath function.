@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    //using cmath funnction in c++ for performing maths function.
+    cout<<pow(2,3)<<endl;
+    cout<<sqrt(25);
+    return 0;
+}
