@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int add(int n,int m){
+    int sum=n+m;
+    return sum;
+};
+int main(){
+    int n,m,sum;
+    cout<<"enter no."<<endl;
+    cin>>n>>m;
+    sum=add(n,m);
+    cout<<sum;
+    return 0;
+}
